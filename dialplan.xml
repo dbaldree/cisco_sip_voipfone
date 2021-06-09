@@ -1,0 +1,56 @@
+<DIALTEMPLATE>
+<TEMPLATE MATCH="999" Timeout="0"/>
+<!--  Emergency  -->
+<TEMPLATE MATCH="112" Timeout="0"/>
+<!--  Emergency  -->
+<TEMPLATE MATCH="101" Timeout="0"/>
+<!--  Almost an Emergency  -->
+<TEMPLATE MATCH="100" Timeout="0"/>
+<!--  Operator  -->
+<TEMPLATE MATCH="155" Timeout="0"/>
+<!--  International Operator  -->
+<TEMPLATE MATCH="123" Timeout="0"/>
+<!--  Speaking Clock  -->
+<TEMPLATE MATCH="1571" Timeout="0"/>
+<!--  Voipfone Voicemail  -->
+<TEMPLATE MATCH="155" Timeout="0"/>
+<!--  Voipfone Test  -->
+<TEMPLATE MATCH="152" Timeout="0"/>
+<!--  Voipfone Echo  -->
+<TEMPLATE MATCH="118..." Timeout="0"/>
+<!--  Men with moustaches et al  -->
+<TEMPLATE MATCH="116..." Timeout="0"/>
+<!--  Pan-European Social Help  -->
+<TEMPLATE MATCH="08001111" Timeout="0"/>
+<!--  Childline. lol  -->
+<TEMPLATE MATCH="0845464." Timeout="0"/>
+<!--  NHS Direct et al  -->
+<TEMPLATE MATCH="0500......" Timeout="0"/>
+<!--  Apparently 0500 is always 10 digits  -->
+<TEMPLATE MATCH="00*" Timeout="5"/>
+<!--  International, 00 prefixed. No fixed length  -->
+<TEMPLATE MATCH="0.........." Timeout="0"/>
+<!--  UK 11 digit, 0 prefixed  -->
+<TEMPLATE MATCH="\*.." Timeout="0"/>
+<!--  Asterisk *.. codes  -->
+<TEMPLATE MATCH="1.." Timeout="0"/>
+<!--  1 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="2.." Timeout="0"/>
+<!--  2 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="3.." Timeout="0"/>
+<!--  3 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="4.." Timeout="0"/>
+<!--  4 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="5.." Timeout="0"/>
+<!--  5 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="6.." Timeout="0"/>
+<!--  6 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="7.." Timeout="0"/>
+<!--  7 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="8.." Timeout="0"/>
+<!--  8 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="9.." Timeout="0"/>
+<!--  9 prefixed 3 digit (internal extensions)  -->
+<TEMPLATE MATCH="*" Timeout="5"/>
+<!--  Anything else  -->
+</DIALTEMPLATE>
