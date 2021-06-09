@@ -9,4 +9,4 @@ P003-8-12-00.sbn
 P0S3-8-12-00.loads  
 P0S3-8-12-00.sb2  
 
-Include these within the same folder you are using for TFTP as with the other files found here (they are already configured to reference this firware version).
+Include these within the same folder you are using for TFTP as with the other files found here (they are already configured to reference this firmware version).
